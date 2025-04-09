@@ -1,4 +1,4 @@
-const internalLink = "http://localhost:5173/products/";
+const internalLink = "https://dg-ecommerce-client.vercel.app/products/";
 
 export const linkProductAndDBProduct = [
     {
