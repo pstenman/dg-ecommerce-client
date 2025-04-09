@@ -8,9 +8,7 @@ export const CustomerList = () => {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>{error}</p>;
   
-    const handleEdit = (id: number) => {
-      return;
-    };
+
   
     const handleDelete = (id: number) => {
       deletedCustomer(id);
@@ -44,7 +42,6 @@ export const CustomerList = () => {
               <>
                 <button
                   className="edit-customer-btn"
-                  onClick={() => handleEdit(customer.id)}
                 >
                   <MdEdit />
                 </button>
