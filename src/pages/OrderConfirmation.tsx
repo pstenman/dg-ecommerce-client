@@ -11,6 +11,8 @@ export const OrderConfirmation = () => {
   const session_id = queryParams.get("session_id");
   const _id = null;
 
+  console.log("🛬 Redirected to Order Confirmation with session_id:", session_id);
+
   const { order, setOrder, loading, error } = useOrder(_id, session_id);
   const { dispatch } = useCart();
 
